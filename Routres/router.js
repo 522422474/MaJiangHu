@@ -1,6 +1,6 @@
 const fs = require("fs");
 exports.showIndex =  (req,res,next) => {
-    res.render("index");
+    res.render("user");
 };
 exports.showLogin = (req,res,result) => {
     res.render("login");

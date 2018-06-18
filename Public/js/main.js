@@ -1,15 +1,15 @@
 ﻿'use strict'
 var sideBarIsHide = false;
 var ManuelSideBarIsHide = false;
-var ManuelSideBarIsState = false;
+var ManuelSideBarIsState = Cookies.get('Left-Nav-display');
 $(".openbtn").on("click", function () {
     ManuelSideBarIsHide = true;
-    if (!ManuelSideBarIsState) {
+    if (ManuelSideBarIsState == 0) {
         resizeSidebar("1");
-        ManuelSideBarIsState = true;
+        ManuelSideBarIsState = 1;
     } else {
         resizeSidebar("0");
-        ManuelSideBarIsState = false;
+        ManuelSideBarIsState = 0;
     }
 });
 
@@ -21,7 +21,6 @@ $(window).resize(function () {
             {
                 resizeSidebar("1");
                 sideBarIsHide = true;
-                $(".colhidden").addClass("displaynone");
 
             }
         } else {
@@ -29,9 +28,6 @@ $(window).resize(function () {
             {
                 resizeSidebar("0");
                 sideBarIsHide = false;
-
-                $(".colhidden").removeClass("displaynone");
-
             }
         }
     }
@@ -81,9 +77,9 @@ if (isMobile.matches) {
 }
 
 function resizeSidebar(op) {
-
+    Cookies.set('Left-Nav-display',op)
+    console.log(op)
     if (op == "1") {
-
         $(".ui.sidebar.left").addClass("very thin icon");
         $(".navslide").addClass("marginlefting");
         $(".sidebar.left span").addClass("displaynone");
@@ -195,6 +191,9 @@ function colorize() {
         $(".navslide .menu").attr("data-color", Cookies.get('headerColor'));
     }
 
+    if(Cookies.get('Left-Nav-display') != undefined){
+        resizeSidebar(Cookies.get('Left-Nav-display'));
+    }
 
     $(".colorlist li a").on("click", function (b) {
         var c = $(this).attr("data-addClass");
@@ -217,6 +216,7 @@ function colorize() {
         Cookies.set('sidebarColor', c);
         d = c;
     });
+
     $(".colorize").popup({
         on: "click"
     });

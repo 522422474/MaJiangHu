@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e533f7d-ef7a-4493-89bc-692c9ddc9856" name="Default" comment="" />
+    <list default="true" id="9e533f7d-ef7a-4493-89bc-692c9ddc9856" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -27,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="191">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
@@ -36,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/views/404.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="143">
-              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -131,16 +133,6 @@
               <item name="MaJiangHu" type="b2602c69:ProjectViewProjectNode" />
               <item name="MaJiangHu" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MaJiangHu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MaJiangHu" type="462c0819:PsiDirectoryNode" />
-              <item name="Routres" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MaJiangHu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MaJiangHu" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -194,7 +186,7 @@
       <workItem from="1529031568112" duration="830000" />
       <workItem from="1529032609713" duration="15397000" />
       <workItem from="1529068376787" duration="1240000" />
-      <workItem from="1529287109192" duration="1741000" />
+      <workItem from="1529287109192" duration="2014000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1529288832801</created>
@@ -207,20 +199,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19208000" />
+    <option name="totallyTimeSpent" value="19481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="22" width="1603" height="977" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15549937" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5025284" side_tool="true" visible="true" weight="0.30454546" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50316054" side_tool="true" visible="true" weight="0.45454547" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993679" weight="0.3284091" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4987358" weight="0.6272727" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49810368" weight="0.39772728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49747154" visible="true" weight="0.30454546" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49683943" visible="true" weight="0.45454547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42727274" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -398,14 +389,14 @@
     <entry file="file://$PROJECT_DIR$/views/404.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
